@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching Tunes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎵 Teaching Tunes</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#songs">Songs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Music that makes learning unforgettable.</h2>
+    <p>Engaging, standards-aligned songs for middle and high school classrooms.</p>
+    <button id="learnMore">Explore Library</button>
+  </section>
+
+  <section id="about">
+    <h2>About Teaching Tunes</h2>
+    <p>
+      Teaching Tunes blends <strong>studio-grade music</strong> with 
+      <strong>academic mastery</strong>. Our catalog covers math, science, ELA, and civics—
+      each song mapped 1-to-1 to Common Core and NGSS standards.
+    </p>
+  </section>
+
+  <section id="songs">
+    <h2>Sample Tracks</h2>
+    <div class="song-card">
+      <h3>🎶 Root Word Revolution</h3>
+      <p>Hamilton-style rap exploring Latin and Greek roots.</p>
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <div class="song-card">
+      <h3>🌎 Purple Kaibigan</h3>
+      <p>Pop-folk anthem about resilience and cooperation.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Teaching Tunes • Made with 💡 and 🎶</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
